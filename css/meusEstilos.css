@@ -51,3 +51,13 @@ section .title{
     padding: 0 10px 5px;
     border-bottom: 3px solid #222222;
 }
+
+#sobre .content{
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+.carousel-inner, .carousel-control.left, .carousel-control.right{
+    border-radius: 30px;
+    
+}
