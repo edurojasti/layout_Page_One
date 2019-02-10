@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css?family=Lato");
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Lato;
+}
+
+#banner{
+    min-height: 100vh;
+    box-sizing: border-box;
+    padding: 20px;
+    color: white;
+    background-image: url("../imgs/img11.jpg");
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.4);
+    background-blend-mode: multiply;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#banner h1{
+    margin-bottom: 10px;
+    font-size: 80px;
+}
+
+#banner h2{
+    margin: 0;
+    font-size: 30px;
+    text-align: center;
+}
+
+#navbar{
+    margin: 0;
+    border-radius: 0;
+}
+
+section {
+    box-sizing: border-box;
+    padding: 20px 0 50px;
+}
+section:nth-child(odd){
+    background-color: #e2e2e2;
+}
+section .title{
+    display: inline-block;
+    margin: 10px auto 40px;
+    padding: 0 10px 5px;
+    border-bottom: 3px solid #222222;
+}
